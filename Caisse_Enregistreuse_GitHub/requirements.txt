@@ -1,0 +1,4 @@
+smolagents>=1.24.0
+python-dotenv>=1.0.0
+qrcode>=7.4.2
+pillow>=10.0.0

@@ -1,0 +1,63 @@
+========================================================================
+🚀 COMMENT METTRE CE DOSSIER SUR GITHUB ET LE DÉPLOYER SUR RENDER
+========================================================================
+
+Ce dossier situé sur votre Bureau ("Caisse_Enregistreuse_GitHub") contient
+l'intégralité du code source propre, configuré et prêt pour GitHub et le Cloud.
+
+Voici les 2 méthodes ultra-simples pour le mettre sur GitHub :
+
+
+------------------------------------------------------------------------
+MÉTHODE 1 : VIA LE SITE WEB GITHUB (Le plus simple, sans rien installer)
+------------------------------------------------------------------------
+
+1. Allez sur https://github.com et connectez-vous à votre compte.
+2. Cliquez sur le bouton vert "New" (en haut à gauche) pour créer un nouveau dépôt.
+3. Donnez-lui un nom, par exemple : ma-caisse-enregistreuse
+4. Choisissez "Public" ou "Private" (Privé).
+5. Ne cochez PAS "Add a README file" (car nous en avons déjà un).
+6. Cliquez sur "Create repository".
+7. Sur la page qui s'affiche, cliquez sur le lien "uploading an existing file"
+   (ou "téléverser des fichiers existants").
+8. Glissez-déposez TOUT le contenu de ce dossier "Caisse_Enregistreuse_GitHub"
+   directement dans la fenêtre de votre navigateur.
+9. Cliquez sur le bouton vert en bas : "Commit changes".
+10. C'est fait ! Votre code est en ligne sur GitHub.
+
+
+------------------------------------------------------------------------
+MÉTHODE 2 : VIA LE TERMINAL / LIGNE DE COMMANDE (Si vous utilisez Git)
+------------------------------------------------------------------------
+
+1. Ouvrez un terminal dans ce dossier "Caisse_Enregistreuse_GitHub".
+2. Tapez les commandes suivantes :
+
+   git init
+   git add .
+   git commit -m "Premiere version de ma caisse enregistreuse"
+   git branch -M main
+   git remote add origin https://github.com/VOTRE_PSEUDO/ma-caisse-enregistreuse.git
+   git push -u origin main
+
+
+------------------------------------------------------------------------
+☁️ DÉPLOIEMENT GRATUIT SUR RENDER EN 2 CLICS :
+------------------------------------------------------------------------
+
+Une fois votre code sur GitHub :
+1. Allez sur https://render.com et connectez-vous avec votre compte GitHub.
+2. Cliquez sur le bouton bleu "New +" en haut à droite -> "Web Service".
+3. Sélectionnez votre dépôt "ma-caisse-enregistreuse".
+4. Vérifiez les informations :
+   - Runtime : Python 3
+   - Build Command : pip install -r requirements.txt
+   - Start Command : python lancer_caisse.py
+   - Plan : Free (0 $/mois)
+5. Cliquez sur "Create Web Service".
+6. En 2 minutes, votre caisse est en ligne avec une URL HTTPS sécurisée :
+   Exemple : https://ma-caisse-enregistreuse.onrender.com
+
+Vous pouvez ensuite ouvrir ce lien sur n'importe quelle tablette et
+faire "Ajouter à l'écran d'accueil" pour l'avoir en plein écran !
+========================================================================
